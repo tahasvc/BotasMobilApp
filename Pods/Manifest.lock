@@ -1,0 +1,50 @@
+PODS:
+  - Alamofire (5.0.0-beta.6)
+  - CleanyModal (0.1.2)
+  - FileBrowser (1.0.0)
+  - JGProgressHUD (2.0.3)
+  - LiquidFloatingActionButton (1.2.0)
+  - LSDialogViewController (3.2)
+  - SnapKit (4.0.1)
+  - SQLite.swift (0.12.0):
+    - SQLite.swift/standard (= 0.12.0)
+  - SQLite.swift/standard (0.12.0)
+  - Toast-Swift (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-beta.5)
+  - CleanyModal (~> 0.1.2)
+  - FileBrowser (~> 1.0)
+  - JGProgressHUD
+  - LiquidFloatingActionButton
+  - LSDialogViewController
+  - SnapKit (~> 4.0.0)
+  - SQLite.swift (~> 0.12.0)
+  - Toast-Swift (~> 5.0.0)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - CleanyModal
+    - FileBrowser
+    - JGProgressHUD
+    - LiquidFloatingActionButton
+    - LSDialogViewController
+    - SnapKit
+    - SQLite.swift
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: cd08a4402bd12cacd0c66f23fb12fec8d6b965e4
+  CleanyModal: abd96bb77747ba0e6434955cdc290c099eed3fc5
+  FileBrowser: 2ca91ff61c9ea09665eb3b8f9e64a7a77e66a0bf
+  JGProgressHUD: 12b20a8f4ffe05258f8635c1ab92816e451f904d
+  LiquidFloatingActionButton: 9c28961915754e08cf596ea6bdd60f9cd949f172
+  LSDialogViewController: 921fd68b78b595152e5493a927368046993e56da
+  SnapKit: 0de968a9fec17499afa29683b05d0c775b6d1c29
+  SQLite.swift: 7cad9db150a03716336e69469ec9559c85aece5b
+  Toast-Swift: 36f4720243c8582c2be243a60a51e193c761f541
+
+PODFILE CHECKSUM: 096d2451c8c47c3d0bf8048a3eaebe41ad2f56f5
+
+COCOAPODS: 1.6.1

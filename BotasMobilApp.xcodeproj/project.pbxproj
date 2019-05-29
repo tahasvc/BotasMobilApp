@@ -3,18 +3,139 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8406A836228A54080079C32D /* CustomAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8406A835228A54080079C32D /* CustomAlertViewController.swift */; };
+		8406A838228A584F0079C32D /* AddSurecFragment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8406A837228A584F0079C32D /* AddSurecFragment.xib */; };
+		8407B8DD227829E100AA9FDE /* McxSearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B8DC227829E100AA9FDE /* McxSearchResult.swift */; };
+		8407B8DF227830DB00AA9FDE /* IMcxCoordinateSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B8DE227830DB00AA9FDE /* IMcxCoordinateSystem.swift */; };
+		8407B8E322783BAF00AA9FDE /* IMcxFieldDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B8E222783BAF00AA9FDE /* IMcxFieldDefinition.swift */; };
+		8407B8E522787B5900AA9FDE /* McxFieldDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B8E422787B5900AA9FDE /* McxFieldDefinition.swift */; };
+		8407B8E722787C4E00AA9FDE /* McxDataTypeCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407B8E622787C4E00AA9FDE /* McxDataTypeCode.swift */; };
+		840EF284227737B5005B7835 /* McxAbstractLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EF283227737B5005B7835 /* McxAbstractLayer.swift */; };
+		840EF28622773CB6005B7835 /* McxGeometryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EF28522773CB6005B7835 /* McxGeometryType.swift */; };
+		840EF2882277437A005B7835 /* McxFsFeatureReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EF2872277437A005B7835 /* McxFsFeatureReader.swift */; };
+		840EF28A22774405005B7835 /* IMcxFeatureReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EF28922774405005B7835 /* IMcxFeatureReader.swift */; };
+		840EF28C22774499005B7835 /* IMcxFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 840EF28B22774499005B7835 /* IMcxFeature.swift */; };
+		841802C8229BCC9E00D08E58 /* McxIdentifyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841802C7229BCC9E00D08E58 /* McxIdentifyController.swift */; };
+		841802CC229BE03C00D08E58 /* SelfDestructorClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841802CB229BE03C00D08E58 /* SelfDestructorClass.swift */; };
+		841802CE229C935300D08E58 /* LayerManagerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841802CD229C935300D08E58 /* LayerManagerView.xib */; };
+		841BBE6E228E876400B335F6 /* McxSqliteEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841BBE6D228E876400B335F6 /* McxSqliteEdit.swift */; };
+		841D13DD2290B63A00C36589 /* McxSqliteFeatureReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D13DC2290B63A00C36589 /* McxSqliteFeatureReader.swift */; };
+		841D13E22290C9E800C36589 /* CheckIOListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841D13E12290C9E800C36589 /* CheckIOListViewController.swift */; };
+		841F0C81227C321A00DDC56F /* IMcxGeometry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F0C80227C321A00DDC56F /* IMcxGeometry.swift */; };
+		841F0C86227C5B9B00DDC56F /* IMcxPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F0C85227C5B9B00DDC56F /* IMcxPoint.swift */; };
 		84247169225CCFEC00B3BD30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84247168225CCFEC00B3BD30 /* AppDelegate.swift */; };
 		8424716B225CCFEC00B3BD30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8424716A225CCFEC00B3BD30 /* ViewController.swift */; };
 		8424716E225CCFEC00B3BD30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8424716C225CCFEC00B3BD30 /* Main.storyboard */; };
 		84247170225CCFEE00B3BD30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8424716F225CCFEE00B3BD30 /* Assets.xcassets */; };
 		84247173225CCFEE00B3BD30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84247171225CCFEE00B3BD30 /* LaunchScreen.storyboard */; };
+		842B94AB2294168C0051873D /* GpsLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B94AA2294168C0051873D /* GpsLocationViewController.swift */; };
+		842B94AD2294181C0051873D /* GpsLocationView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B94AC2294181C0051873D /* GpsLocationView.xib */; };
+		842B94B4229483C30051873D /* ReportsView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B94B3229483C30051873D /* ReportsView.xib */; };
+		842B94B6229485890051873D /* ReportsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B94B5229485890051873D /* ReportsViewController.swift */; };
+		842B94B8229492980051873D /* HatVanaPeriyodikForm.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B94B7229492980051873D /* HatVanaPeriyodikForm.xib */; };
+		842B94BA22949ADD0051873D /* HatVanaPeriyodikViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B94B922949ADD0051873D /* HatVanaPeriyodikViewController.swift */; };
+		842B94BC2294ACE00051873D /* BotasMobilCheckInAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B94BB2294ACE00051873D /* BotasMobilCheckInAction.swift */; };
+		842B94BE2294B1980051873D /* McxServerTransaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B94BD2294B1980051873D /* McxServerTransaction.swift */; };
+		842B94C02294B4200051873D /* McxServerConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842B94BF2294B4200051873D /* McxServerConverter.swift */; };
+		842B94C4229565760051873D /* HasarTamirView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B94C3229565760051873D /* HasarTamirView.xib */; };
+		842B94C6229572080051873D /* PetrolBoruHatView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B94C5229572080051873D /* PetrolBoruHatView.xib */; };
+		842B94C8229578010051873D /* PigKovanView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842B94C7229578010051873D /* PigKovanView.xib */; };
+		8435524522859B1700344262 /* BotasMobilCreateController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435524422859B1700344262 /* BotasMobilCreateController.swift */; };
+		8435524822859F7D00344262 /* BotasMobilApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435524722859F7D00344262 /* BotasMobilApplication.swift */; };
+		8435524A2285B08500344262 /* IMcxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843552492285B08500344262 /* IMcxController.swift */; };
+		8435524C2285B0A800344262 /* IMcxTouchListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435524B2285B0A800344262 /* IMcxTouchListener.swift */; };
+		843552502285B20800344262 /* McxController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8435524F2285B20800344262 /* McxController.swift */; };
+		843552542285C40500344262 /* AddProcessFragment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843552532285C40500344262 /* AddProcessFragment.swift */; };
+		843B93372271E34A00FBBB2C /* McxFsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B93362271E34A00FBBB2C /* McxFsDataSource.swift */; };
+		843B93392271E6CB00FBBB2C /* IMcxDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B93382271E6CB00FBBB2C /* IMcxDataSource.swift */; };
+		843B933B2271E9B000FBBB2C /* IMcxLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B933A2271E9B000FBBB2C /* IMcxLayer.swift */; };
+		843B933D2271EA7D00FBBB2C /* McxGetLayerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B933C2271EA7D00FBBB2C /* McxGetLayerResult.swift */; };
+		843B933F2271F41B00FBBB2C /* Uri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843B933E2271F41B00FBBB2C /* Uri.swift */; };
+		845985EF228A978F00D5BD01 /* LoginFragment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 845985EE228A978F00D5BD01 /* LoginFragment.xib */; };
+		845985F2228AB1E100D5BD01 /* botas_seed.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 845985F1228AB1E100D5BD01 /* botas_seed.sqlite */; };
+		845985F4228ABA1800D5BD01 /* BotasMobilDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845985F3228ABA1800D5BD01 /* BotasMobilDataManager.swift */; };
+		845985F6228ABA8000D5BD01 /* BotasMobilLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845985F5228ABA8000D5BD01 /* BotasMobilLocalDataManager.swift */; };
+		845985FA228AF6DF00D5BD01 /* BotasMobilUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845985F9228AF6DE00D5BD01 /* BotasMobilUser.swift */; };
+		845F35E5226771F90097405C /* McxPaintPointController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F35E4226771F90097405C /* McxPaintPointController.swift */; };
+		848F53362291723B00F3D063 /* BotasMobilGorevType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F53352291723B00F3D063 /* BotasMobilGorevType.swift */; };
+		848F53382291B71800F3D063 /* CheckListFragment.xib in Resources */ = {isa = PBXBuildFile; fileRef = 848F53372291B71800F3D063 /* CheckListFragment.xib */; };
+		849BB760229583E200CB9B0E /* McxSqliteHistoryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849BB75F229583E200CB9B0E /* McxSqliteHistoryType.swift */; };
+		849FC7E82269F6E200E1CA96 /* McxFsDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC7E72269F6E100E1CA96 /* McxFsDriver.swift */; };
+		849FC7EA2269F72D00E1CA96 /* IMcxDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC7E92269F72D00E1CA96 /* IMcxDriver.swift */; };
+		849FC7EC2269F99A00E1CA96 /* McxOpenDataSourceResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC7EB2269F99A00E1CA96 /* McxOpenDataSourceResult.swift */; };
+		849FC7EF2270555900E1CA96 /* BotasMobilSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC7EE2270555900E1CA96 /* BotasMobilSettings.swift */; };
+		849FC7F12270593C00E1CA96 /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849FC7F02270593C00E1CA96 /* JsonParser.swift */; };
+		84A350132289BBB3006E961F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A350122289BBB3006E961F /* LoginViewController.swift */; };
+		84B07B0A225F2AE400A79EA0 /* MapViewControlller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B07B09225F2AE400A79EA0 /* MapViewControlller.swift */; };
+		84B07B0E225F61B900A79EA0 /* BotasMobilHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B07B0D225F61B900A79EA0 /* BotasMobilHelper.swift */; };
+		84B07B10225F621300A79EA0 /* MapHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B07B0F225F621300A79EA0 /* MapHelper.swift */; };
+		84B381B8228CCA320085076D /* IMcxEdit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B381B7228CCA320085076D /* IMcxEdit.swift */; };
+		84B381BB228D8AC30085076D /* BotasMobilCheckOutAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B381BA228D8AC30085076D /* BotasMobilCheckOutAction.swift */; };
+		84B381BD228D8B490085076D /* McxAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B381BC228D8B490085076D /* McxAction.swift */; };
+		84B381BF228D8B5A0085076D /* IMcxAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B381BE228D8B5A0085076D /* IMcxAction.swift */; };
+		84B381C1228DA7B50085076D /* McxSqliteDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B381C0228DA7B50085076D /* McxSqliteDataSource.swift */; };
+		84B381C3228DA87C0085076D /* McxSqliteDriver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B381C2228DA87C0085076D /* McxSqliteDriver.swift */; };
+		84B381C5228E66740085076D /* McxSqliteLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B381C4228E66740085076D /* McxSqliteLayer.swift */; };
+		84B381C7228E67460085076D /* IMcxSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B381C6228E67460085076D /* IMcxSchema.swift */; };
+		84B381C9228E67D90085076D /* McxSchema.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B381C8228E67D90085076D /* McxSchema.swift */; };
+		84CAE7C0227B164E00D89719 /* McxMemFeature.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAE7BF227B164E00D89719 /* McxMemFeature.swift */; };
+		84CAE7C2227B177300D89719 /* McxFieldPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CAE7C1227B177300D89719 /* McxFieldPair.swift */; };
+		84CCFFD92272E5B000E30EC4 /* McxAbstractDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCFFD82272E5B000E30EC4 /* McxAbstractDataSource.swift */; };
+		84CCFFDB2272F25A00E30EC4 /* McxFsLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCFFDA2272F25A00E30EC4 /* McxFsLayer.swift */; };
+		84CECAC22264AB100024E8D1 /* BotasMobilDataBaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CECAC12264AB100024E8D1 /* BotasMobilDataBaseHelper.swift */; };
+		84D0DA3F22968EB5003E29F4 /* McxFeatureWktConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA3E22968EB5003E29F4 /* McxFeatureWktConverter.swift */; };
+		84D0DA452296E3AC003E29F4 /* McxFeatureWktHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA442296E3AC003E29F4 /* McxFeatureWktHelper.swift */; };
+		84D0DA482297586B003E29F4 /* LayerManagerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA472297586B003E29F4 /* LayerManagerViewController.swift */; };
+		84D0DA4A2297BE2A003E29F4 /* IMcxSymbolizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA492297BE2A003E29F4 /* IMcxSymbolizer.swift */; };
+		84D0DA4C2297BE71003E29F4 /* IMcxPointSymbolizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA4B2297BE71003E29F4 /* IMcxPointSymbolizer.swift */; };
+		84D0DA4E2297BEDA003E29F4 /* IMcxGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA4D2297BEDA003E29F4 /* IMcxGraphic.swift */; };
+		84D0DA502297BF9D003E29F4 /* IMcxStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA4F2297BF9D003E29F4 /* IMcxStroke.swift */; };
+		84D0DA522297C027003E29F4 /* IMcxLineSymbolizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA512297C027003E29F4 /* IMcxLineSymbolizer.swift */; };
+		84D0DA542297C083003E29F4 /* IMcxFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA532297C083003E29F4 /* IMcxFill.swift */; };
+		84D0DA562297C10D003E29F4 /* IMcxPolygonSymbolizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA552297C10D003E29F4 /* IMcxPolygonSymbolizer.swift */; };
+		84D0DA582297C18A003E29F4 /* McxPointSymbolizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA572297C18A003E29F4 /* McxPointSymbolizer.swift */; };
+		84D0DA5A2297C27E003E29F4 /* McxLineSymbolizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA592297C27E003E29F4 /* McxLineSymbolizer.swift */; };
+		84D0DA5C2297C304003E29F4 /* McxGraphic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA5B2297C304003E29F4 /* McxGraphic.swift */; };
+		84D0DA5E2297C30E003E29F4 /* McxFill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA5D2297C30E003E29F4 /* McxFill.swift */; };
+		84D0DA602297C582003E29F4 /* McxStroke.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D0DA5F2297C582003E29F4 /* McxStroke.swift */; };
+		84D6AC61225E3A210013860E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D6AC60225E3A210013860E /* SWRevealViewController.m */; };
+		84D6AC64225E3A4F0013860E /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6AC62225E3A4F0013860E /* MenuCell.swift */; };
+		84D6AC65225E3A4F0013860E /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6AC63225E3A4F0013860E /* menuViewController.swift */; };
+		84D8DB98229D68AF00E27A2C /* McxCheckType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D8DB97229D68AF00E27A2C /* McxCheckType.swift */; };
+		84E21A9A2283168E00EE1EFB /* McxCoordinateSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E21A992283168E00EE1EFB /* McxCoordinateSystem.swift */; };
+		84F038462281A18E002F75BE /* IMcxLineString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F038452281A18E002F75BE /* IMcxLineString.swift */; };
+		84F038482281A1B0002F75BE /* IMcxPolygon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F038472281A1B0002F75BE /* IMcxPolygon.swift */; };
+		E3EC321FE22E6D12502B525D /* Pods_BotasMobilApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1233A4924A07DF962B668BCD /* Pods_BotasMobilApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		098827BDE8427707E8BC8E37 /* Pods-BotasMobilApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BotasMobilApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BotasMobilApp/Pods-BotasMobilApp.debug.xcconfig"; sourceTree = "<group>"; };
+		1233A4924A07DF962B668BCD /* Pods_BotasMobilApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BotasMobilApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B3623E696DDA52F30B492C /* Pods-BotasMobilApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BotasMobilApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-BotasMobilApp/Pods-BotasMobilApp.release.xcconfig"; sourceTree = "<group>"; };
+		8406A835228A54080079C32D /* CustomAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertViewController.swift; sourceTree = "<group>"; };
+		8406A837228A584F0079C32D /* AddSurecFragment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddSurecFragment.xib; sourceTree = "<group>"; };
+		8407B8DC227829E100AA9FDE /* McxSearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxSearchResult.swift; sourceTree = "<group>"; };
+		8407B8DE227830DB00AA9FDE /* IMcxCoordinateSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxCoordinateSystem.swift; sourceTree = "<group>"; };
+		8407B8E222783BAF00AA9FDE /* IMcxFieldDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxFieldDefinition.swift; sourceTree = "<group>"; };
+		8407B8E422787B5900AA9FDE /* McxFieldDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxFieldDefinition.swift; sourceTree = "<group>"; };
+		8407B8E622787C4E00AA9FDE /* McxDataTypeCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxDataTypeCode.swift; sourceTree = "<group>"; };
+		840EF283227737B5005B7835 /* McxAbstractLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxAbstractLayer.swift; sourceTree = "<group>"; };
+		840EF28522773CB6005B7835 /* McxGeometryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxGeometryType.swift; sourceTree = "<group>"; };
+		840EF2872277437A005B7835 /* McxFsFeatureReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxFsFeatureReader.swift; sourceTree = "<group>"; };
+		840EF28922774405005B7835 /* IMcxFeatureReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxFeatureReader.swift; sourceTree = "<group>"; };
+		840EF28B22774499005B7835 /* IMcxFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxFeature.swift; sourceTree = "<group>"; };
+		841802C7229BCC9E00D08E58 /* McxIdentifyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxIdentifyController.swift; sourceTree = "<group>"; };
+		841802CB229BE03C00D08E58 /* SelfDestructorClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelfDestructorClass.swift; sourceTree = "<group>"; };
+		841802CD229C935300D08E58 /* LayerManagerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LayerManagerView.xib; sourceTree = "<group>"; };
+		841BBE6D228E876400B335F6 /* McxSqliteEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxSqliteEdit.swift; sourceTree = "<group>"; };
+		841D13DC2290B63A00C36589 /* McxSqliteFeatureReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxSqliteFeatureReader.swift; sourceTree = "<group>"; };
+		841D13E12290C9E800C36589 /* CheckIOListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckIOListViewController.swift; sourceTree = "<group>"; };
+		841F0C80227C321A00DDC56F /* IMcxGeometry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxGeometry.swift; sourceTree = "<group>"; };
+		841F0C85227C5B9B00DDC56F /* IMcxPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxPoint.swift; sourceTree = "<group>"; };
 		84247165225CCFEC00B3BD30 /* BotasMobilApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BotasMobilApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84247168225CCFEC00B3BD30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8424716A225CCFEC00B3BD30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +143,88 @@
 		8424716F225CCFEE00B3BD30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84247172225CCFEE00B3BD30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84247174225CCFEE00B3BD30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842B94AA2294168C0051873D /* GpsLocationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GpsLocationViewController.swift; sourceTree = "<group>"; };
+		842B94AC2294181C0051873D /* GpsLocationView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GpsLocationView.xib; sourceTree = "<group>"; };
+		842B94B3229483C30051873D /* ReportsView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReportsView.xib; sourceTree = "<group>"; };
+		842B94B5229485890051873D /* ReportsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReportsViewController.swift; sourceTree = "<group>"; };
+		842B94B7229492980051873D /* HatVanaPeriyodikForm.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HatVanaPeriyodikForm.xib; sourceTree = "<group>"; };
+		842B94B922949ADD0051873D /* HatVanaPeriyodikViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HatVanaPeriyodikViewController.swift; sourceTree = "<group>"; };
+		842B94BB2294ACE00051873D /* BotasMobilCheckInAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilCheckInAction.swift; sourceTree = "<group>"; };
+		842B94BD2294B1980051873D /* McxServerTransaction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxServerTransaction.swift; sourceTree = "<group>"; };
+		842B94BF2294B4200051873D /* McxServerConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxServerConverter.swift; sourceTree = "<group>"; };
+		842B94C3229565760051873D /* HasarTamirView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HasarTamirView.xib; sourceTree = "<group>"; };
+		842B94C5229572080051873D /* PetrolBoruHatView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PetrolBoruHatView.xib; sourceTree = "<group>"; };
+		842B94C7229578010051873D /* PigKovanView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PigKovanView.xib; sourceTree = "<group>"; };
+		8435524422859B1700344262 /* BotasMobilCreateController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilCreateController.swift; sourceTree = "<group>"; };
+		8435524722859F7D00344262 /* BotasMobilApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilApplication.swift; sourceTree = "<group>"; };
+		843552492285B08500344262 /* IMcxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxController.swift; sourceTree = "<group>"; };
+		8435524B2285B0A800344262 /* IMcxTouchListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxTouchListener.swift; sourceTree = "<group>"; };
+		8435524F2285B20800344262 /* McxController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxController.swift; sourceTree = "<group>"; };
+		843552532285C40500344262 /* AddProcessFragment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddProcessFragment.swift; sourceTree = "<group>"; };
+		843B932F22719C7E00FBBB2C /* LiquidFloatingActionButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LiquidFloatingActionButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		843B933122719C8200FBBB2C /* SnapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SnapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		843B933322719C8500FBBB2C /* LSDialogViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = LSDialogViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		843B93362271E34A00FBBB2C /* McxFsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxFsDataSource.swift; sourceTree = "<group>"; };
+		843B93382271E6CB00FBBB2C /* IMcxDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxDataSource.swift; sourceTree = "<group>"; };
+		843B933A2271E9B000FBBB2C /* IMcxLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxLayer.swift; sourceTree = "<group>"; };
+		843B933C2271EA7D00FBBB2C /* McxGetLayerResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxGetLayerResult.swift; sourceTree = "<group>"; };
+		843B933E2271F41B00FBBB2C /* Uri.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Uri.swift; sourceTree = "<group>"; };
+		845985EE228A978F00D5BD01 /* LoginFragment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginFragment.xib; sourceTree = "<group>"; };
+		845985F1228AB1E100D5BD01 /* botas_seed.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = botas_seed.sqlite; sourceTree = "<group>"; };
+		845985F3228ABA1800D5BD01 /* BotasMobilDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilDataManager.swift; sourceTree = "<group>"; };
+		845985F5228ABA8000D5BD01 /* BotasMobilLocalDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilLocalDataManager.swift; sourceTree = "<group>"; };
+		845985F9228AF6DE00D5BD01 /* BotasMobilUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilUser.swift; sourceTree = "<group>"; };
+		845F35E4226771F90097405C /* McxPaintPointController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxPaintPointController.swift; sourceTree = "<group>"; };
+		848F53352291723B00F3D063 /* BotasMobilGorevType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilGorevType.swift; sourceTree = "<group>"; };
+		848F53372291B71800F3D063 /* CheckListFragment.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CheckListFragment.xib; sourceTree = "<group>"; };
+		849BB75F229583E200CB9B0E /* McxSqliteHistoryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxSqliteHistoryType.swift; sourceTree = "<group>"; };
+		849FC7E72269F6E100E1CA96 /* McxFsDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxFsDriver.swift; sourceTree = "<group>"; };
+		849FC7E92269F72D00E1CA96 /* IMcxDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxDriver.swift; sourceTree = "<group>"; };
+		849FC7EB2269F99A00E1CA96 /* McxOpenDataSourceResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxOpenDataSourceResult.swift; sourceTree = "<group>"; };
+		849FC7EE2270555900E1CA96 /* BotasMobilSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilSettings.swift; sourceTree = "<group>"; };
+		849FC7F02270593C00E1CA96 /* JsonParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JsonParser.swift; sourceTree = "<group>"; };
+		84A350122289BBB3006E961F /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		84B07B09225F2AE400A79EA0 /* MapViewControlller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewControlller.swift; sourceTree = "<group>"; };
+		84B07B0D225F61B900A79EA0 /* BotasMobilHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilHelper.swift; sourceTree = "<group>"; };
+		84B07B0F225F621300A79EA0 /* MapHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapHelper.swift; sourceTree = "<group>"; };
+		84B381B7228CCA320085076D /* IMcxEdit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxEdit.swift; sourceTree = "<group>"; };
+		84B381BA228D8AC30085076D /* BotasMobilCheckOutAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilCheckOutAction.swift; sourceTree = "<group>"; };
+		84B381BC228D8B490085076D /* McxAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxAction.swift; sourceTree = "<group>"; };
+		84B381BE228D8B5A0085076D /* IMcxAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxAction.swift; sourceTree = "<group>"; };
+		84B381C0228DA7B50085076D /* McxSqliteDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxSqliteDataSource.swift; sourceTree = "<group>"; };
+		84B381C2228DA87C0085076D /* McxSqliteDriver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxSqliteDriver.swift; sourceTree = "<group>"; };
+		84B381C4228E66740085076D /* McxSqliteLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxSqliteLayer.swift; sourceTree = "<group>"; };
+		84B381C6228E67460085076D /* IMcxSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxSchema.swift; sourceTree = "<group>"; };
+		84B381C8228E67D90085076D /* McxSchema.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxSchema.swift; sourceTree = "<group>"; };
+		84CAE7BF227B164E00D89719 /* McxMemFeature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxMemFeature.swift; sourceTree = "<group>"; };
+		84CAE7C1227B177300D89719 /* McxFieldPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxFieldPair.swift; sourceTree = "<group>"; };
+		84CCFFD82272E5B000E30EC4 /* McxAbstractDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxAbstractDataSource.swift; sourceTree = "<group>"; };
+		84CCFFDA2272F25A00E30EC4 /* McxFsLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxFsLayer.swift; sourceTree = "<group>"; };
+		84CECAC12264AB100024E8D1 /* BotasMobilDataBaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotasMobilDataBaseHelper.swift; sourceTree = "<group>"; };
+		84D0DA3E22968EB5003E29F4 /* McxFeatureWktConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxFeatureWktConverter.swift; sourceTree = "<group>"; };
+		84D0DA442296E3AC003E29F4 /* McxFeatureWktHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxFeatureWktHelper.swift; sourceTree = "<group>"; };
+		84D0DA472297586B003E29F4 /* LayerManagerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayerManagerViewController.swift; sourceTree = "<group>"; };
+		84D0DA492297BE2A003E29F4 /* IMcxSymbolizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxSymbolizer.swift; sourceTree = "<group>"; };
+		84D0DA4B2297BE71003E29F4 /* IMcxPointSymbolizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxPointSymbolizer.swift; sourceTree = "<group>"; };
+		84D0DA4D2297BEDA003E29F4 /* IMcxGraphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxGraphic.swift; sourceTree = "<group>"; };
+		84D0DA4F2297BF9D003E29F4 /* IMcxStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxStroke.swift; sourceTree = "<group>"; };
+		84D0DA512297C027003E29F4 /* IMcxLineSymbolizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxLineSymbolizer.swift; sourceTree = "<group>"; };
+		84D0DA532297C083003E29F4 /* IMcxFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxFill.swift; sourceTree = "<group>"; };
+		84D0DA552297C10D003E29F4 /* IMcxPolygonSymbolizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxPolygonSymbolizer.swift; sourceTree = "<group>"; };
+		84D0DA572297C18A003E29F4 /* McxPointSymbolizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxPointSymbolizer.swift; sourceTree = "<group>"; };
+		84D0DA592297C27E003E29F4 /* McxLineSymbolizer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxLineSymbolizer.swift; sourceTree = "<group>"; };
+		84D0DA5B2297C304003E29F4 /* McxGraphic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxGraphic.swift; sourceTree = "<group>"; };
+		84D0DA5D2297C30E003E29F4 /* McxFill.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxFill.swift; sourceTree = "<group>"; };
+		84D0DA5F2297C582003E29F4 /* McxStroke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxStroke.swift; sourceTree = "<group>"; };
+		84D6AC5A225E37770013860E /* BotasMobilApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BotasMobilApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		84D6AC5F225E3A200013860E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = BotasMobilApp/UI/SWRevealViewController.h; sourceTree = SOURCE_ROOT; };
+		84D6AC60225E3A210013860E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = BotasMobilApp/UI/SWRevealViewController.m; sourceTree = SOURCE_ROOT; };
+		84D6AC62225E3A4F0013860E /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MenuCell.swift; path = BotasMobilApp/UI/MenuCell.swift; sourceTree = SOURCE_ROOT; };
+		84D6AC63225E3A4F0013860E /* menuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = menuViewController.swift; path = BotasMobilApp/UI/menuViewController.swift; sourceTree = SOURCE_ROOT; };
+		84D8DB97229D68AF00E27A2C /* McxCheckType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxCheckType.swift; sourceTree = "<group>"; };
+		84E21A992283168E00EE1EFB /* McxCoordinateSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = McxCoordinateSystem.swift; sourceTree = "<group>"; };
+		84F038452281A18E002F75BE /* IMcxLineString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxLineString.swift; sourceTree = "<group>"; };
+		84F038472281A1B0002F75BE /* IMcxPolygon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMcxPolygon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +232,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3EC321FE22E6D12502B525D /* Pods_BotasMobilApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		841D13DE2290C91D00C36589 /* CheckInOutList */ = {
+			isa = PBXGroup;
+			children = (
+				841D13E12290C9E800C36589 /* CheckIOListViewController.swift */,
+				848F53372291B71800F3D063 /* CheckListFragment.xib */,
+			);
+			path = CheckInOutList;
+			sourceTree = "<group>";
+		};
 		8424715C225CCFEC00B3BD30 = {
 			isa = PBXGroup;
 			children = (
 				84247167225CCFEC00B3BD30 /* BotasMobilApp */,
 				84247166225CCFEC00B3BD30 /* Products */,
+				B3C1CB20052B5894EEF35E3A /* Pods */,
+				F133F9223364199583D9CCAD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +269,260 @@
 		84247167225CCFEC00B3BD30 /* BotasMobilApp */ = {
 			isa = PBXGroup;
 			children = (
+				846DA134229171BC00C15002 /* Enums */,
+				84B381B9228D8A840085076D /* CheckInOut */,
+				845985F0228AB18E00D5BD01 /* SQLite */,
+				843552522285C3B000344262 /* Fragments */,
+				8435524622859F6A00344262 /* App */,
+				8435524322859AF600344262 /* Controllers */,
+				849FC7ED2270554100E1CA96 /* Settings */,
+				845F35E3226771E40097405C /* Base */,
+				84B07B0C225F619E00A79EA0 /* Builtin */,
+				84B07B0B225F602000A79EA0 /* UI */,
+				84B07B08225F2AC500A79EA0 /* Map */,
 				84247168225CCFEC00B3BD30 /* AppDelegate.swift */,
 				8424716A225CCFEC00B3BD30 /* ViewController.swift */,
 				8424716C225CCFEC00B3BD30 /* Main.storyboard */,
 				8424716F225CCFEE00B3BD30 /* Assets.xcassets */,
 				84247171225CCFEE00B3BD30 /* LaunchScreen.storyboard */,
 				84247174225CCFEE00B3BD30 /* Info.plist */,
+				84D6AC5A225E37770013860E /* BotasMobilApp-Bridging-Header.h */,
 			);
 			path = BotasMobilApp;
+			sourceTree = "<group>";
+		};
+		842B94A9229415B00051873D /* GpsLocation */ = {
+			isa = PBXGroup;
+			children = (
+				842B94AA2294168C0051873D /* GpsLocationViewController.swift */,
+				842B94AC2294181C0051873D /* GpsLocationView.xib */,
+			);
+			path = GpsLocation;
+			sourceTree = "<group>";
+		};
+		842B94B2229483740051873D /* Reports */ = {
+			isa = PBXGroup;
+			children = (
+				842B94B3229483C30051873D /* ReportsView.xib */,
+				842B94B5229485890051873D /* ReportsViewController.swift */,
+				842B94B7229492980051873D /* HatVanaPeriyodikForm.xib */,
+				842B94B922949ADD0051873D /* HatVanaPeriyodikViewController.swift */,
+				842B94C3229565760051873D /* HasarTamirView.xib */,
+				842B94C5229572080051873D /* PetrolBoruHatView.xib */,
+				842B94C7229578010051873D /* PigKovanView.xib */,
+			);
+			path = Reports;
+			sourceTree = "<group>";
+		};
+		8435524322859AF600344262 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				8435524422859B1700344262 /* BotasMobilCreateController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8435524622859F6A00344262 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				8435524722859F7D00344262 /* BotasMobilApplication.swift */,
+				845985F3228ABA1800D5BD01 /* BotasMobilDataManager.swift */,
+				845985F5228ABA8000D5BD01 /* BotasMobilLocalDataManager.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		843552522285C3B000344262 /* Fragments */ = {
+			isa = PBXGroup;
+			children = (
+				84D0DA46229757A7003E29F4 /* LayerManager */,
+				842B94B2229483740051873D /* Reports */,
+				842B94A9229415B00051873D /* GpsLocation */,
+				841D13DE2290C91D00C36589 /* CheckInOutList */,
+				845985ED228A975600D5BD01 /* Process */,
+				84A350112289BB5D006E961F /* Login */,
+				8406A835228A54080079C32D /* CustomAlertViewController.swift */,
+			);
+			path = Fragments;
+			sourceTree = "<group>";
+		};
+		845985ED228A975600D5BD01 /* Process */ = {
+			isa = PBXGroup;
+			children = (
+				843552532285C40500344262 /* AddProcessFragment.swift */,
+				8406A837228A584F0079C32D /* AddSurecFragment.xib */,
+			);
+			path = Process;
+			sourceTree = "<group>";
+		};
+		845985F0228AB18E00D5BD01 /* SQLite */ = {
+			isa = PBXGroup;
+			children = (
+				845985F1228AB1E100D5BD01 /* botas_seed.sqlite */,
+			);
+			path = SQLite;
+			sourceTree = "<group>";
+		};
+		845F35E3226771E40097405C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				845F35E4226771F90097405C /* McxPaintPointController.swift */,
+				849FC7E72269F6E100E1CA96 /* McxFsDriver.swift */,
+				849FC7E92269F72D00E1CA96 /* IMcxDriver.swift */,
+				849FC7EB2269F99A00E1CA96 /* McxOpenDataSourceResult.swift */,
+				849FC7F02270593C00E1CA96 /* JsonParser.swift */,
+				843B93362271E34A00FBBB2C /* McxFsDataSource.swift */,
+				843B93382271E6CB00FBBB2C /* IMcxDataSource.swift */,
+				843B933A2271E9B000FBBB2C /* IMcxLayer.swift */,
+				843B933C2271EA7D00FBBB2C /* McxGetLayerResult.swift */,
+				843B933E2271F41B00FBBB2C /* Uri.swift */,
+				84CCFFD82272E5B000E30EC4 /* McxAbstractDataSource.swift */,
+				84CCFFDA2272F25A00E30EC4 /* McxFsLayer.swift */,
+				840EF283227737B5005B7835 /* McxAbstractLayer.swift */,
+				840EF28522773CB6005B7835 /* McxGeometryType.swift */,
+				840EF2872277437A005B7835 /* McxFsFeatureReader.swift */,
+				840EF28922774405005B7835 /* IMcxFeatureReader.swift */,
+				840EF28B22774499005B7835 /* IMcxFeature.swift */,
+				8407B8DC227829E100AA9FDE /* McxSearchResult.swift */,
+				8407B8DE227830DB00AA9FDE /* IMcxCoordinateSystem.swift */,
+				8407B8E222783BAF00AA9FDE /* IMcxFieldDefinition.swift */,
+				8407B8E422787B5900AA9FDE /* McxFieldDefinition.swift */,
+				8407B8E622787C4E00AA9FDE /* McxDataTypeCode.swift */,
+				84CAE7BF227B164E00D89719 /* McxMemFeature.swift */,
+				84CAE7C1227B177300D89719 /* McxFieldPair.swift */,
+				841F0C80227C321A00DDC56F /* IMcxGeometry.swift */,
+				841F0C85227C5B9B00DDC56F /* IMcxPoint.swift */,
+				84F038452281A18E002F75BE /* IMcxLineString.swift */,
+				84F038472281A1B0002F75BE /* IMcxPolygon.swift */,
+				84E21A992283168E00EE1EFB /* McxCoordinateSystem.swift */,
+				843552492285B08500344262 /* IMcxController.swift */,
+				8435524B2285B0A800344262 /* IMcxTouchListener.swift */,
+				8435524F2285B20800344262 /* McxController.swift */,
+				84B381B7228CCA320085076D /* IMcxEdit.swift */,
+				84B381BC228D8B490085076D /* McxAction.swift */,
+				84B381BE228D8B5A0085076D /* IMcxAction.swift */,
+				84B381C0228DA7B50085076D /* McxSqliteDataSource.swift */,
+				84B381C2228DA87C0085076D /* McxSqliteDriver.swift */,
+				84B381C4228E66740085076D /* McxSqliteLayer.swift */,
+				84B381C6228E67460085076D /* IMcxSchema.swift */,
+				84B381C8228E67D90085076D /* McxSchema.swift */,
+				841BBE6D228E876400B335F6 /* McxSqliteEdit.swift */,
+				841D13DC2290B63A00C36589 /* McxSqliteFeatureReader.swift */,
+				842B94BD2294B1980051873D /* McxServerTransaction.swift */,
+				842B94BF2294B4200051873D /* McxServerConverter.swift */,
+				849BB75F229583E200CB9B0E /* McxSqliteHistoryType.swift */,
+				84D0DA3E22968EB5003E29F4 /* McxFeatureWktConverter.swift */,
+				84D0DA442296E3AC003E29F4 /* McxFeatureWktHelper.swift */,
+				84D0DA492297BE2A003E29F4 /* IMcxSymbolizer.swift */,
+				84D0DA4B2297BE71003E29F4 /* IMcxPointSymbolizer.swift */,
+				84D0DA4D2297BEDA003E29F4 /* IMcxGraphic.swift */,
+				84D0DA4F2297BF9D003E29F4 /* IMcxStroke.swift */,
+				84D0DA512297C027003E29F4 /* IMcxLineSymbolizer.swift */,
+				84D0DA532297C083003E29F4 /* IMcxFill.swift */,
+				84D0DA552297C10D003E29F4 /* IMcxPolygonSymbolizer.swift */,
+				84D0DA572297C18A003E29F4 /* McxPointSymbolizer.swift */,
+				84D0DA592297C27E003E29F4 /* McxLineSymbolizer.swift */,
+				84D0DA5B2297C304003E29F4 /* McxGraphic.swift */,
+				84D0DA5D2297C30E003E29F4 /* McxFill.swift */,
+				84D0DA5F2297C582003E29F4 /* McxStroke.swift */,
+				841802C7229BCC9E00D08E58 /* McxIdentifyController.swift */,
+				841802CB229BE03C00D08E58 /* SelfDestructorClass.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		846DA134229171BC00C15002 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				848F53352291723B00F3D063 /* BotasMobilGorevType.swift */,
+				84D8DB97229D68AF00E27A2C /* McxCheckType.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		849FC7ED2270554100E1CA96 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				849FC7EE2270555900E1CA96 /* BotasMobilSettings.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		84A350112289BB5D006E961F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				84A350122289BBB3006E961F /* LoginViewController.swift */,
+				845985EE228A978F00D5BD01 /* LoginFragment.xib */,
+				845985F9228AF6DE00D5BD01 /* BotasMobilUser.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		84B07B08225F2AC500A79EA0 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				84B07B09225F2AE400A79EA0 /* MapViewControlller.swift */,
+				84B07B0F225F621300A79EA0 /* MapHelper.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		84B07B0B225F602000A79EA0 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84D6AC5F225E3A200013860E /* SWRevealViewController.h */,
+				84D6AC60225E3A210013860E /* SWRevealViewController.m */,
+				84D6AC63225E3A4F0013860E /* menuViewController.swift */,
+				84D6AC62225E3A4F0013860E /* MenuCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		84B07B0C225F619E00A79EA0 /* Builtin */ = {
+			isa = PBXGroup;
+			children = (
+				84B07B0D225F61B900A79EA0 /* BotasMobilHelper.swift */,
+				84CECAC12264AB100024E8D1 /* BotasMobilDataBaseHelper.swift */,
+			);
+			path = Builtin;
+			sourceTree = "<group>";
+		};
+		84B381B9228D8A840085076D /* CheckInOut */ = {
+			isa = PBXGroup;
+			children = (
+				84B381BA228D8AC30085076D /* BotasMobilCheckOutAction.swift */,
+				842B94BB2294ACE00051873D /* BotasMobilCheckInAction.swift */,
+			);
+			path = CheckInOut;
+			sourceTree = "<group>";
+		};
+		84D0DA46229757A7003E29F4 /* LayerManager */ = {
+			isa = PBXGroup;
+			children = (
+				84D0DA472297586B003E29F4 /* LayerManagerViewController.swift */,
+				841802CD229C935300D08E58 /* LayerManagerView.xib */,
+			);
+			path = LayerManager;
+			sourceTree = "<group>";
+		};
+		B3C1CB20052B5894EEF35E3A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				098827BDE8427707E8BC8E37 /* Pods-BotasMobilApp.debug.xcconfig */,
+				37B3623E696DDA52F30B492C /* Pods-BotasMobilApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F133F9223364199583D9CCAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				843B933322719C8500FBBB2C /* LSDialogViewController.framework */,
+				843B933122719C8200FBBB2C /* SnapKit.framework */,
+				843B932F22719C7E00FBBB2C /* LiquidFloatingActionButton.framework */,
+				1233A4924A07DF962B668BCD /* Pods_BotasMobilApp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +532,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84247177225CCFEE00B3BD30 /* Build configuration list for PBXNativeTarget "BotasMobilApp" */;
 			buildPhases = (
+				C1D2A68C85551B9C3CA377CA /* [CP] Check Pods Manifest.lock */,
 				84247161225CCFEC00B3BD30 /* Sources */,
 				84247162225CCFEC00B3BD30 /* Frameworks */,
 				84247163225CCFEC00B3BD30 /* Resources */,
+				85B4134876BBA659205644ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -100,7 +563,7 @@
 				};
 			};
 			buildConfigurationList = 84247160225CCFEC00B3BD30 /* Build configuration list for PBXProject "BotasMobilApp" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -122,7 +585,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842B94B8229492980051873D /* HatVanaPeriyodikForm.xib in Resources */,
+				848F53382291B71800F3D063 /* CheckListFragment.xib in Resources */,
+				841802CE229C935300D08E58 /* LayerManagerView.xib in Resources */,
+				842B94C4229565760051873D /* HasarTamirView.xib in Resources */,
+				8406A838228A584F0079C32D /* AddSurecFragment.xib in Resources */,
+				842B94AD2294181C0051873D /* GpsLocationView.xib in Resources */,
+				845985EF228A978F00D5BD01 /* LoginFragment.xib in Resources */,
+				845985F2228AB1E100D5BD01 /* botas_seed.sqlite in Resources */,
+				842B94C8229578010051873D /* PigKovanView.xib in Resources */,
 				84247173225CCFEE00B3BD30 /* LaunchScreen.storyboard in Resources */,
+				842B94C6229572080051873D /* PetrolBoruHatView.xib in Resources */,
+				842B94B4229483C30051873D /* ReportsView.xib in Resources */,
 				84247170225CCFEE00B3BD30 /* Assets.xcassets in Resources */,
 				8424716E225CCFEC00B3BD30 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +604,154 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		85B4134876BBA659205644ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BotasMobilApp/Pods-BotasMobilApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/CleanyModal/CleanyModal.framework",
+				"${BUILT_PRODUCTS_DIR}/FileBrowser/FileBrowser.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/LSDialogViewController/LSDialogViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/LiquidFloatingActionButton/LiquidFloatingActionButton.framework",
+				"${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CleanyModal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FileBrowser.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LSDialogViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LiquidFloatingActionButton.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SQLite.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BotasMobilApp/Pods-BotasMobilApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1D2A68C85551B9C3CA377CA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BotasMobilApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		84247161225CCFEC00B3BD30 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				845985F6228ABA8000D5BD01 /* BotasMobilLocalDataManager.swift in Sources */,
+				843B93392271E6CB00FBBB2C /* IMcxDataSource.swift in Sources */,
+				84B381C1228DA7B50085076D /* McxSqliteDataSource.swift in Sources */,
+				849FC7EA2269F72D00E1CA96 /* IMcxDriver.swift in Sources */,
+				849FC7E82269F6E200E1CA96 /* McxFsDriver.swift in Sources */,
+				843552542285C40500344262 /* AddProcessFragment.swift in Sources */,
+				841BBE6E228E876400B335F6 /* McxSqliteEdit.swift in Sources */,
+				84F038482281A1B0002F75BE /* IMcxPolygon.swift in Sources */,
+				84B07B10225F621300A79EA0 /* MapHelper.swift in Sources */,
+				843B933F2271F41B00FBBB2C /* Uri.swift in Sources */,
+				84D0DA452296E3AC003E29F4 /* McxFeatureWktHelper.swift in Sources */,
+				8435524822859F7D00344262 /* BotasMobilApplication.swift in Sources */,
+				849BB760229583E200CB9B0E /* McxSqliteHistoryType.swift in Sources */,
+				84F038462281A18E002F75BE /* IMcxLineString.swift in Sources */,
 				8424716B225CCFEC00B3BD30 /* ViewController.swift in Sources */,
+				84CAE7C2227B177300D89719 /* McxFieldPair.swift in Sources */,
+				84D0DA482297586B003E29F4 /* LayerManagerViewController.swift in Sources */,
+				84D0DA5C2297C304003E29F4 /* McxGraphic.swift in Sources */,
+				84B381C7228E67460085076D /* IMcxSchema.swift in Sources */,
+				84E21A9A2283168E00EE1EFB /* McxCoordinateSystem.swift in Sources */,
+				8407B8E322783BAF00AA9FDE /* IMcxFieldDefinition.swift in Sources */,
+				840EF2882277437A005B7835 /* McxFsFeatureReader.swift in Sources */,
+				842B94BC2294ACE00051873D /* BotasMobilCheckInAction.swift in Sources */,
+				8407B8E522787B5900AA9FDE /* McxFieldDefinition.swift in Sources */,
+				84D0DA522297C027003E29F4 /* IMcxLineSymbolizer.swift in Sources */,
+				84CAE7C0227B164E00D89719 /* McxMemFeature.swift in Sources */,
+				84D0DA4E2297BEDA003E29F4 /* IMcxGraphic.swift in Sources */,
+				8435524C2285B0A800344262 /* IMcxTouchListener.swift in Sources */,
+				840EF28622773CB6005B7835 /* McxGeometryType.swift in Sources */,
+				84B381C9228E67D90085076D /* McxSchema.swift in Sources */,
+				845F35E5226771F90097405C /* McxPaintPointController.swift in Sources */,
+				84B381B8228CCA320085076D /* IMcxEdit.swift in Sources */,
+				843B933D2271EA7D00FBBB2C /* McxGetLayerResult.swift in Sources */,
+				84D0DA542297C083003E29F4 /* IMcxFill.swift in Sources */,
+				841802CC229BE03C00D08E58 /* SelfDestructorClass.swift in Sources */,
+				845985F4228ABA1800D5BD01 /* BotasMobilDataManager.swift in Sources */,
+				84B381BD228D8B490085076D /* McxAction.swift in Sources */,
+				84A350132289BBB3006E961F /* LoginViewController.swift in Sources */,
+				841D13DD2290B63A00C36589 /* McxSqliteFeatureReader.swift in Sources */,
+				843B933B2271E9B000FBBB2C /* IMcxLayer.swift in Sources */,
+				84CCFFDB2272F25A00E30EC4 /* McxFsLayer.swift in Sources */,
+				84D0DA3F22968EB5003E29F4 /* McxFeatureWktConverter.swift in Sources */,
+				8435524522859B1700344262 /* BotasMobilCreateController.swift in Sources */,
+				84D0DA5E2297C30E003E29F4 /* McxFill.swift in Sources */,
 				84247169225CCFEC00B3BD30 /* AppDelegate.swift in Sources */,
+				84D6AC64225E3A4F0013860E /* MenuCell.swift in Sources */,
+				8407B8DF227830DB00AA9FDE /* IMcxCoordinateSystem.swift in Sources */,
+				842B94C02294B4200051873D /* McxServerConverter.swift in Sources */,
+				8435524A2285B08500344262 /* IMcxController.swift in Sources */,
+				84D0DA582297C18A003E29F4 /* McxPointSymbolizer.swift in Sources */,
+				84B381BB228D8AC30085076D /* BotasMobilCheckOutAction.swift in Sources */,
+				84B07B0E225F61B900A79EA0 /* BotasMobilHelper.swift in Sources */,
+				84CECAC22264AB100024E8D1 /* BotasMobilDataBaseHelper.swift in Sources */,
+				849FC7EC2269F99A00E1CA96 /* McxOpenDataSourceResult.swift in Sources */,
+				849FC7EF2270555900E1CA96 /* BotasMobilSettings.swift in Sources */,
+				840EF28A22774405005B7835 /* IMcxFeatureReader.swift in Sources */,
+				849FC7F12270593C00E1CA96 /* JsonParser.swift in Sources */,
+				842B94B6229485890051873D /* ReportsViewController.swift in Sources */,
+				841F0C81227C321A00DDC56F /* IMcxGeometry.swift in Sources */,
+				84D0DA5A2297C27E003E29F4 /* McxLineSymbolizer.swift in Sources */,
+				841F0C86227C5B9B00DDC56F /* IMcxPoint.swift in Sources */,
+				842B94AB2294168C0051873D /* GpsLocationViewController.swift in Sources */,
+				840EF284227737B5005B7835 /* McxAbstractLayer.swift in Sources */,
+				8407B8DD227829E100AA9FDE /* McxSearchResult.swift in Sources */,
+				845985FA228AF6DF00D5BD01 /* BotasMobilUser.swift in Sources */,
+				842B94BA22949ADD0051873D /* HatVanaPeriyodikViewController.swift in Sources */,
+				84D0DA4C2297BE71003E29F4 /* IMcxPointSymbolizer.swift in Sources */,
+				841D13E22290C9E800C36589 /* CheckIOListViewController.swift in Sources */,
+				8407B8E722787C4E00AA9FDE /* McxDataTypeCode.swift in Sources */,
+				84CCFFD92272E5B000E30EC4 /* McxAbstractDataSource.swift in Sources */,
+				843B93372271E34A00FBBB2C /* McxFsDataSource.swift in Sources */,
+				84B07B0A225F2AE400A79EA0 /* MapViewControlller.swift in Sources */,
+				84B381C5228E66740085076D /* McxSqliteLayer.swift in Sources */,
+				84D0DA562297C10D003E29F4 /* IMcxPolygonSymbolizer.swift in Sources */,
+				841802C8229BCC9E00D08E58 /* McxIdentifyController.swift in Sources */,
+				84D0DA602297C582003E29F4 /* McxStroke.swift in Sources */,
+				84B381BF228D8B5A0085076D /* IMcxAction.swift in Sources */,
+				84D0DA502297BF9D003E29F4 /* IMcxStroke.swift in Sources */,
+				84D0DA4A2297BE2A003E29F4 /* IMcxSymbolizer.swift in Sources */,
+				848F53362291723B00F3D063 /* BotasMobilGorevType.swift in Sources */,
+				843552502285B20800344262 /* McxController.swift in Sources */,
+				8406A836228A54080079C32D /* CustomAlertViewController.swift in Sources */,
+				84D6AC61225E3A210013860E /* SWRevealViewController.m in Sources */,
+				84D6AC65225E3A4F0013860E /* menuViewController.swift in Sources */,
+				84B381C3228DA87C0085076D /* McxSqliteDriver.swift in Sources */,
+				842B94BE2294B1980051873D /* McxServerTransaction.swift in Sources */,
+				84D8DB98229D68AF00E27A2C /* McxCheckType.swift in Sources */,
+				840EF28C22774499005B7835 /* IMcxFeature.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,16 +893,27 @@
 		};
 		84247178225CCFEE00B3BD30 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 098827BDE8427707E8BC8E37 /* Pods-BotasMobilApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LSDialogViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LiquidFloatingActionButton\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
+					"\"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic\"",
+				);
 				INFOPLIST_FILE = BotasMobilApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapcodex.BotasMobilApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BotasMobilApp/BotasMobilApp-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -295,16 +921,27 @@
 		};
 		84247179225CCFEE00B3BD30 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B3623E696DDA52F30B492C /* Pods-BotasMobilApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LSDialogViewController\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/LiquidFloatingActionButton\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/SnapKit\"",
+					"\"${PODS_ROOT}/Mapbox-iOS-SDK/dynamic\"",
+				);
 				INFOPLIST_FILE = BotasMobilApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.mapcodex.BotasMobilApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BotasMobilApp/BotasMobilApp-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "$(SWIFT_MODULE_NAME)-Swift.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bLV-Yg-8Az">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,16 +13,246 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="BotasMobilApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <containerView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="3qv-n2-G0S">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <connections>
+                                    <segue destination="FkX-io-JOu" kind="embed" id="F1r-yf-qbs"/>
+                                </connections>
+                            </containerView>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="tOZ-Se-Qmj">
+                                <rect key="frame" x="0.0" y="292" width="152" height="76"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Waf-DW-hhg">
+                                        <rect key="frame" x="0.0" y="0.0" width="76" height="76"/>
+                                        <state key="normal" backgroundImage="check_out"/>
+                                        <connections>
+                                            <action selector="checkOut:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vtZ-ab-LEj"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Xs-zM-qbO">
+                                        <rect key="frame" x="76" y="0.0" width="76" height="76"/>
+                                        <state key="normal" backgroundImage="check_in"/>
+                                        <connections>
+                                            <action selector="checkIn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6xE-ig-Izn"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" contentMode="top" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P4G-DL-hf0">
+                                <rect key="frame" x="0.0" y="10" width="32" height="32"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="menu"/>
+                            </button>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="31" translatesAutoresizingMaskIntoConstraints="NO" id="TlI-Dy-5uf">
+                                <rect key="frame" x="300" y="5" width="369" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eYC-3H-DGb">
+                                        <rect key="frame" x="0.0" y="0.0" width="69" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Sabotaj"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOd-sE-oqr">
+                                        <rect key="frame" x="100" y="0.0" width="69" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Uygunsuz"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7C-5y-Lno">
+                                        <rect key="frame" x="200" y="0.0" width="69" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Arıza"/>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xcq-R3-oIj">
+                                        <rect key="frame" x="300" y="0.0" width="69" height="30"/>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <state key="normal" title="Bakım"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="HOd-sE-oqr" firstAttribute="width" secondItem="xcq-R3-oIj" secondAttribute="width" id="ghK-Bz-G2m"/>
+                                    <constraint firstItem="HOd-sE-oqr" firstAttribute="width" secondItem="k7C-5y-Lno" secondAttribute="width" id="lRo-ko-onn"/>
+                                    <constraint firstItem="HOd-sE-oqr" firstAttribute="width" secondItem="eYC-3H-DGb" secondAttribute="width" id="xRk-wp-tak"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="lud-9u-UYw"/>
                     </view>
+                    <navigationItem key="navigationItem" id="UC4-0K-uAR"/>
+                    <connections>
+                        <outlet property="arizaButton" destination="k7C-5y-Lno" id="wKd-Ej-of0"/>
+                        <outlet property="bakimButton" destination="xcq-R3-oIj" id="voN-nb-TVR"/>
+                        <outlet property="btnNavBar" destination="P4G-DL-hf0" id="KG1-qC-fHd"/>
+                        <outlet property="sabotajButton" destination="eYC-3H-DGb" id="fTx-rt-Ijp"/>
+                        <outlet property="uygunsuzButton" destination="HOd-sE-oqr" id="C8o-fH-N9P"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1736.5817091454273" y="672.79999999999995"/>
+        </scene>
+        <!--Reveal View Controller-->
+        <scene sceneID="SOp-Ul-AnR">
+            <objects>
+                <viewController storyboardIdentifier="SWRevealViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="bLV-Yg-8Az" customClass="SWRevealViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q5R-3b-FSV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="PUm-tz-YFQ"/>
+                    </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="600" height="600"/>
+                    <connections>
+                        <segue destination="MhV-V0-rb9" kind="custom" identifier="sw_front" customClass="SWRevealViewControllerSegueSetController" id="RvK-it-pvq"/>
+                        <segue destination="IdR-RP-6FI" kind="custom" identifier="sw_rear" customClass="SWRevealViewControllerSegueSetController" id="32a-5W-aGK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lir-BA-eNq" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-581" y="-164"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="bkQ-Da-yg3">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="MhV-V0-rb9" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" hidden="YES" contentMode="scaleToFill" id="LRb-wm-bhd">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="32"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="AAF-HJ-Dss"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZKs-so-e3Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="646" y="704"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="SP8-kc-kNX">
+            <objects>
+                <viewController id="FkX-io-JOu" customClass="MapViewController" customModule="BotasMobilApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7QO-lS-rk2">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="LzA-Ac-PcY">
+                                <rect key="frame" x="-1" y="0.0" width="667" height="375"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="f6a-NS-hWb"/>
+                    </view>
+                    <connections>
+                        <outlet property="mapView" destination="LzA-Ac-PcY" id="bZm-xg-UHJ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M5M-4r-3vy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2750" y="704"/>
+        </scene>
+        <!--Menu View Controller-->
+        <scene sceneID="KTl-yB-Ix9">
+            <objects>
+                <viewController storyboardIdentifier="menuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IdR-RP-6FI" customClass="menuViewController" customModule="BotasMobilApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iaa-fn-zAa">
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="xrK-0s-Bpf">
+                                <rect key="frame" x="0.0" y="141" width="667" height="234"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="MenuCell" id="t4m-2h-RBN" customClass="MenuCell" customModule="BotasMobilApp" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="667" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="t4m-2h-RBN" id="XP2-Ya-Um7">
+                                            <rect key="frame" x="0.0" y="0.0" width="667" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waI-hE-cwu">
+                                                    <rect key="frame" x="66" y="11" width="586" height="27"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="27" id="aEP-JH-7LF"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="fom-EH-eFo">
+                                                    <rect key="frame" x="20" y="11" width="30" height="30"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="28" id="q7I-8B-cqO"/>
+                                                        <constraint firstAttribute="height" constant="28" id="wYH-cS-Ysa"/>
+                                                    </constraints>
+                                                </imageView>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="fom-EH-eFo" firstAttribute="top" secondItem="XP2-Ya-Um7" secondAttribute="topMargin" id="7Nk-SP-w3p"/>
+                                                <constraint firstItem="fom-EH-eFo" firstAttribute="leading" secondItem="XP2-Ya-Um7" secondAttribute="leadingMargin" constant="12" id="7kj-uC-zrv"/>
+                                                <constraint firstItem="waI-hE-cwu" firstAttribute="top" secondItem="XP2-Ya-Um7" secondAttribute="topMargin" id="EGG-p6-iO0"/>
+                                                <constraint firstItem="waI-hE-cwu" firstAttribute="leading" secondItem="fom-EH-eFo" secondAttribute="trailing" constant="11" id="SK2-IC-lCg"/>
+                                                <constraint firstItem="waI-hE-cwu" firstAttribute="trailing" secondItem="XP2-Ya-Um7" secondAttribute="trailingMargin" id="mJU-Tt-cEs"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="imgIcon" destination="fom-EH-eFo" id="Oa5-qa-nxr"/>
+                                            <outlet property="lblMenuname" destination="waI-hE-cwu" id="KJH-dE-Y1q"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="IdR-RP-6FI" id="xVu-IJ-rQj"/>
+                                    <outlet property="delegate" destination="IdR-RP-6FI" id="Cz1-zd-Oo4"/>
+                                </connections>
+                            </tableView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="botas_logo" translatesAutoresizingMaskIntoConstraints="NO" id="KZo-sb-mMV">
+                                <rect key="frame" x="60" y="8" width="100" height="125"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="125" id="Fxx-IY-DTK"/>
+                                    <constraint firstAttribute="width" constant="100" id="x3f-IA-mIa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xrK-0s-Bpf" firstAttribute="leading" secondItem="xhe-su-VYF" secondAttribute="leading" id="2FF-gU-g3V"/>
+                            <constraint firstItem="xhe-su-VYF" firstAttribute="trailing" secondItem="xrK-0s-Bpf" secondAttribute="trailing" id="IDo-5r-Hoh"/>
+                            <constraint firstItem="xrK-0s-Bpf" firstAttribute="top" secondItem="KZo-sb-mMV" secondAttribute="bottom" constant="8" id="PVQ-Su-qV5"/>
+                            <constraint firstItem="KZo-sb-mMV" firstAttribute="leading" secondItem="Iaa-fn-zAa" secondAttribute="leadingMargin" multiplier="3" id="TtG-wG-mxo"/>
+                            <constraint firstItem="KZo-sb-mMV" firstAttribute="top" secondItem="xhe-su-VYF" secondAttribute="top" constant="8" id="X9q-UJ-OhM"/>
+                            <constraint firstItem="xhe-su-VYF" firstAttribute="bottom" secondItem="xrK-0s-Bpf" secondAttribute="bottom" id="b6K-I1-r1H"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="xhe-su-VYF"/>
+                    </view>
+                    <connections>
+                        <outlet property="imgProfile" destination="KZo-sb-mMV" id="G9i-Z4-ujY"/>
+                        <outlet property="tblTableView" destination="xrK-0s-Bpf" id="ub1-HS-Unt"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kbB-Kp-ztp" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="688.79999999999995" y="-275.71214392803603"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="botas_logo" width="244" height="300"/>
+        <image name="check_in" width="76" height="76"/>
+        <image name="check_out" width="76" height="76"/>
+        <image name="menu" width="32" height="32"/>
+    </resources>
 </document>

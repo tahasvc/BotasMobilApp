@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import LSDialogViewController
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
