@@ -53,7 +53,10 @@ class CheckIOListViewController: UIViewController ,UITableViewDelegate,UITableVi
             alert.addAction(UIAlertAction(title: "Tamam", style: .default, handler: { action in
                 switch action.style{
                 case .default:
+                    ViewController.delegate.dismissDialog()
                     let _ = BotasMobilCheckOutAction(taskId: _taskId).onExecute()
+                    ViewController.delegate.dismissDialog()
+                     BotasMobilHelper.showToast("İndirme İşlemi Tamamlandı",self)
                 case .cancel:
                     print("")
                 case .destructive:
@@ -76,6 +79,7 @@ class CheckIOListViewController: UIViewController ,UITableViewDelegate,UITableVi
                 switch action.style{
                 case .default:
                     let _ = BotasMobilCheckInAction(feature: self._features[indexPath.row-1]).onExecute()
+                    ViewController.delegate.dismissDialog()
                 case .cancel:
                     print("")
                 case .destructive:

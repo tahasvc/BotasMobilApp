@@ -150,9 +150,7 @@ class BotasMobilCheckOutAction :McxAction {
             localFeature.setValue(ordinalOrName: "GOREV_TIP" as AnyObject, value: feature.getValueWithName(name: "GOREV_TIP"))
             let edit:IMcxEdit = localLayer.createEdit()
             edit.insert(localFeature)
-        }
-        
-        BotasMobilHelper.showToast("CheckBitti",ViewController.delegate)
+        }        
     }
     func extreactPlanliAlanLayer() -> () {
         let localLayer:IMcxLayer = _localDataMngr.getLayer(layerName: BotasMobilSettings.planliAlanLayer)
